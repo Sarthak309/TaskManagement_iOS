@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143600012C9434B600FC9007 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143600002C9434B600FC9007 /* DashBoardViewModel.swift */; };
+		143600032C9436D500FC9007 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143600022C9436D500FC9007 /* Status.swift */; };
+		143600052C94385200FC9007 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143600042C94385200FC9007 /* Priority.swift */; };
+		1436FFFD2C9431E500FC9007 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1436FFFC2C9431E400FC9007 /* DashboardView.swift */; };
+		1436FFFF2C94321700FC9007 /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1436FFFE2C94321700FC9007 /* TaskCardView.swift */; };
 		14C8CBB02C92EAFF00C20BEA /* TaskManagementApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBAF2C92EAFF00C20BEA /* TaskManagementApplicationApp.swift */; };
 		14C8CBB22C92EAFF00C20BEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBB12C92EAFF00C20BEA /* ContentView.swift */; };
 		14C8CBB42C92EB0200C20BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C8CBB32C92EB0200C20BEA /* Assets.xcassets */; };
 		14C8CBB72C92EB0200C20BEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C8CBB62C92EB0200C20BEA /* Preview Assets.xcassets */; };
+		14C8CBBE2C92EB3000C20BEA /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBBD2C92EB3000C20BEA /* SplashScreenView.swift */; };
+		14C8CBC12C92EBC600C20BEA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBC02C92EBC600C20BEA /* SignUpView.swift */; };
+		14C8CBC32C92EC2C00C20BEA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBC22C92EC2C00C20BEA /* LoginView.swift */; };
+		14C8CBC62C92EC4800C20BEA /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBC52C92EC4800C20BEA /* ApiService.swift */; };
+		14C8CBC92C92EFA600C20BEA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 14C8CBC82C92EFA600C20BEA /* Alamofire */; };
+		14C8CBCC2C92EFE800C20BEA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBCB2C92EFE800C20BEA /* Constant.swift */; };
+		14C8CBD02C92F11500C20BEA /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBCF2C92F11500C20BEA /* UserRole.swift */; };
+		14C8CBD22C92F13F00C20BEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBD12C92F13F00C20BEA /* User.swift */; };
+		14C8CBD52C92F28700C20BEA /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBD42C92F28700C20BEA /* SignUpViewModel.swift */; };
+		14C8CBD72C930A4000C20BEA /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBD62C930A4000C20BEA /* UserPreference.swift */; };
+		14C8CBD92C930A9500C20BEA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBD82C930A9500C20BEA /* LoginResponse.swift */; };
+		14C8CBDB2C930AF300C20BEA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8CBDA2C930AF300C20BEA /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143600002C9434B600FC9007 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
+		143600022C9436D500FC9007 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		143600042C94385200FC9007 /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		1436FFFC2C9431E400FC9007 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1436FFFE2C94321700FC9007 /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
 		14C8CBAC2C92EAFF00C20BEA /* TaskManagementApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagementApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C8CBAF2C92EAFF00C20BEA /* TaskManagementApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagementApplicationApp.swift; sourceTree = "<group>"; };
 		14C8CBB12C92EAFF00C20BEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14C8CBB32C92EB0200C20BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14C8CBB62C92EB0200C20BEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14C8CBBD2C92EB3000C20BEA /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		14C8CBC02C92EBC600C20BEA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		14C8CBC22C92EC2C00C20BEA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		14C8CBC52C92EC4800C20BEA /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		14C8CBCB2C92EFE800C20BEA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		14C8CBCF2C92F11500C20BEA /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
+		14C8CBD12C92F13F00C20BEA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		14C8CBD42C92F28700C20BEA /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		14C8CBD62C930A4000C20BEA /* UserPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
+		14C8CBD82C930A9500C20BEA /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		14C8CBDA2C930AF300C20BEA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C8CBC92C92EFA600C20BEA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +85,15 @@
 		14C8CBAE2C92EAFF00C20BEA /* TaskManagementApplication */ = {
 			isa = PBXGroup;
 			children = (
-				14C8CBAF2C92EAFF00C20BEA /* TaskManagementApplicationApp.swift */,
-				14C8CBB12C92EAFF00C20BEA /* ContentView.swift */,
 				14C8CBB32C92EB0200C20BEA /* Assets.xcassets */,
+				14C8CBB12C92EAFF00C20BEA /* ContentView.swift */,
+				14C8CBCD2C92F0FC00C20BEA /* Model */,
+				14C8CBC42C92EC3900C20BEA /* NetworkManager */,
 				14C8CBB52C92EB0200C20BEA /* Preview Content */,
+				14C8CBAF2C92EAFF00C20BEA /* TaskManagementApplicationApp.swift */,
+				14C8CBCA2C92EFDE00C20BEA /* Utils */,
+				14C8CBBF2C92EB5B00C20BEA /* View */,
+				14C8CBD32C92F27900C20BEA /* ViewModel */,
 			);
 			path = TaskManagementApplication;
 			sourceTree = "<group>";
@@ -65,6 +104,57 @@
 				14C8CBB62C92EB0200C20BEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14C8CBBF2C92EB5B00C20BEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14C8CBBD2C92EB3000C20BEA /* SplashScreenView.swift */,
+				14C8CBC02C92EBC600C20BEA /* SignUpView.swift */,
+				14C8CBC22C92EC2C00C20BEA /* LoginView.swift */,
+				1436FFFC2C9431E400FC9007 /* DashboardView.swift */,
+				1436FFFE2C94321700FC9007 /* TaskCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14C8CBC42C92EC3900C20BEA /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				14C8CBC52C92EC4800C20BEA /* ApiService.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		14C8CBCA2C92EFDE00C20BEA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				14C8CBCB2C92EFE800C20BEA /* Constant.swift */,
+				14C8CBD62C930A4000C20BEA /* UserPreference.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		14C8CBCD2C92F0FC00C20BEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14C8CBCF2C92F11500C20BEA /* UserRole.swift */,
+				14C8CBD12C92F13F00C20BEA /* User.swift */,
+				14C8CBD82C930A9500C20BEA /* LoginResponse.swift */,
+				143600022C9436D500FC9007 /* Status.swift */,
+				143600042C94385200FC9007 /* Priority.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14C8CBD32C92F27900C20BEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14C8CBD42C92F28700C20BEA /* SignUpViewModel.swift */,
+				14C8CBDA2C930AF300C20BEA /* LoginViewModel.swift */,
+				143600002C9434B600FC9007 /* DashBoardViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +173,9 @@
 			dependencies = (
 			);
 			name = TaskManagementApplication;
+			packageProductDependencies = (
+				14C8CBC82C92EFA600C20BEA /* Alamofire */,
+			);
 			productName = TaskManagementApplication;
 			productReference = 14C8CBAC2C92EAFF00C20BEA /* TaskManagementApplication.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,9 @@
 				Base,
 			);
 			mainGroup = 14C8CBA32C92EAFF00C20BEA;
+			packageReferences = (
+				14C8CBC72C92EFA600C20BEA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 14C8CBAD2C92EAFF00C20BEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +233,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C8CBCC2C92EFE800C20BEA /* Constant.swift in Sources */,
+				14C8CBD22C92F13F00C20BEA /* User.swift in Sources */,
+				14C8CBD92C930A9500C20BEA /* LoginResponse.swift in Sources */,
+				143600032C9436D500FC9007 /* Status.swift in Sources */,
+				1436FFFD2C9431E500FC9007 /* DashboardView.swift in Sources */,
+				14C8CBD52C92F28700C20BEA /* SignUpViewModel.swift in Sources */,
+				14C8CBC12C92EBC600C20BEA /* SignUpView.swift in Sources */,
+				14C8CBD72C930A4000C20BEA /* UserPreference.swift in Sources */,
+				143600012C9434B600FC9007 /* DashBoardViewModel.swift in Sources */,
+				14C8CBD02C92F11500C20BEA /* UserRole.swift in Sources */,
 				14C8CBB22C92EAFF00C20BEA /* ContentView.swift in Sources */,
+				14C8CBDB2C930AF300C20BEA /* LoginViewModel.swift in Sources */,
+				1436FFFF2C94321700FC9007 /* TaskCardView.swift in Sources */,
+				14C8CBC62C92EC4800C20BEA /* ApiService.swift in Sources */,
 				14C8CBB02C92EAFF00C20BEA /* TaskManagementApplicationApp.swift in Sources */,
+				14C8CBC32C92EC2C00C20BEA /* LoginView.swift in Sources */,
+				14C8CBBE2C92EB3000C20BEA /* SplashScreenView.swift in Sources */,
+				143600052C94385200FC9007 /* Priority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14C8CBC72C92EFA600C20BEA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14C8CBC82C92EFA600C20BEA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14C8CBC72C92EFA600C20BEA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 14C8CBA42C92EAFF00C20BEA /* Project object */;
 }
