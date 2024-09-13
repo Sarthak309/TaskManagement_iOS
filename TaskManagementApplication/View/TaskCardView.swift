@@ -16,7 +16,7 @@ struct TaskCardView: View {
     var status: Status
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading,spacing: 8) {
             Text(title)
                 .font(.title2)
                 .fontWeight(.bold)
@@ -78,14 +78,23 @@ struct TaskCardView: View {
                     Image(systemName: "trash")
                 }
             }
-            .padding(.top)
+            .padding(.top,8)
         }
         .padding()
+        .frame(width: UIScreen.main.bounds.width - 60)
         .background(Color(uiColor: .white))
-        .border(Color(uiColor: .systemGray))
+        .clipShape(RoundedRectangle(cornerRadius: 6))
+        .overlay {
+            RoundedRectangle(cornerRadius: 6)
+                .stroke(Color(uiColor: .systemGray), lineWidth: 2)
+        }
     }
 }
 
 #Preview {
     TaskCardView(title: "Update UI", description: "Please Update the UI of the app", dueDate: "20/09/2024", employee: "Sarah", priority: .medium, status: .completed)
+}
+
+#Preview{
+    TaskCardView(title: "Create UI", description: "Integrate the login and signup API from freeAPI.com ", dueDate: "22/22/22", employee: "sarthak", priority: .high, status: .cancelled)
 }

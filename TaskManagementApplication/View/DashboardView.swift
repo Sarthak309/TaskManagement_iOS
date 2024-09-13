@@ -44,23 +44,22 @@ struct DashboardView: View {
                 // Task Cards
                 ScrollView {
                     LazyVStack(spacing: 16) {
-                        ForEach(viewModel.tasks) { task in
-                            TaskCardView(
-                                title: task.title,
-                                description: task.description,
-                                dueDate: viewModel.formatDate(task.dueDate),
-                                employee: task.employeeName,
-                                priority: task.mappedPriority() ?? .low,
-                                status: task.mappedStatus() ?? .inprogress
-                            )
-                            .swipeActions {
-                                Button(action: {
-                                    viewModel.deleteTask()
-                                }) {
-                                    Image(systemName: "trash")
-                                }
-                            }
-                        }
+                        //                        ForEach(viewModel.tasks.sorted()) { task in
+                        //                            TaskCardView(
+                        //                                title: task.title,
+                        //                                description: task.description,
+                        //                                dueDate: viewModel.formatDate(task.dueDate),
+                        //                                employee: task.employeeName,
+                        //                                priority: task.mappedPriority() ?? .low,
+                        //                                status: task.mappedStatus() ?? .inprogress
+                        //                            )
+                        //
+                        TaskCardView(title: "Update the UI", description: " Please Update the UI of the app", dueDate: "Mar 10, 2024", employee: "John Doe", priority: .low, status: .cancelled)
+
+                        TaskCardView(title: "Create UI", description: " Please Create a good UI/UX of the app", dueDate: "Mar 11, 2024", employee: "Michael John", priority: .high, status: .pending)
+                        
+                        TaskCardView(title: "Integrate the APIS", description: "Integrate the login and signup API from freeAPI.com", dueDate: "Mar 10, 2024", employee: "Jane Smith", priority: .medium, status: .completed)
+                    
                     }
                     .padding(.horizontal)
                 }

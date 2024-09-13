@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Task:Codable, Identifiable{
+struct Task:Codable, Identifiable, Comparable{
+    static func < (lhs: Task, rhs: Task) -> Bool {
+        return lhs.id < rhs.id
+    }
+    
     let id:Int
     let title: String
     let description: String
