@@ -38,8 +38,9 @@ struct TaskCardView: View {
                 Text("Employee: ")
                     .fontWeight(.bold)
                     .foregroundStyle(.black)
-                Text(employee)
+                Text(employee.capitalized)
                     .foregroundStyle(.black)
+                
             }
             
             HStack {

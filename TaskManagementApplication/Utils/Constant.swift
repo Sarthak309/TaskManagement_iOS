@@ -14,4 +14,6 @@ class Constants{
     static let loginUrl: String = "auth/login"
     
     static let signinUrl: String = "auth/signup"
+    
+    static let getTaskUrl: String = "/tasks"
 }

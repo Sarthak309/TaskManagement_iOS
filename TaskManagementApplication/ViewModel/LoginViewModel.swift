@@ -40,7 +40,6 @@ class LoginViewModel: ObservableObject {
                 self?.isLoading = false
                 switch result{
                 case .success(let response):
-                    print(response)
                     self?.showErrorAlert = false
                     self?.alertMessage = "Logged in Successfully"
                     self?.userPreferences.jwt = response.jwt

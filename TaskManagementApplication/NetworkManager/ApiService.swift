@@ -43,4 +43,23 @@ class APIService {
                 completion(response.result)
             }
     }
+    
+    func fetchTask(userRole: String, token: String, completion: @escaping (Result<[Task], AFError>) -> Void){
+        let url = Constants.baseUrl+userRole+Constants.getTaskUrl
+        
+        let headers: HTTPHeaders = [
+            "Authorization": "Bearer \(token)"
+        ]
+        
+        AF.request(url,method: .get, headers: headers)
+            .responseDecodable(of: [Task].self) { response in
+                switch response.result{
+                case .success(let tasks):
+                    print(tasks.count)
+                case .failure(let error):
+                    print(error)
+                }
+                completion(response.result)
+            }
+    }
 }
